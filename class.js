@@ -6,7 +6,7 @@ const people = {
 const driver = {...people, name: `Vasya`, age: 33,}
 console.log(driver)
 
-function Human(name,age){
+function human(name,age){
     this.name = name,
     this.age = age,
     this.printInfo = () => {
@@ -14,6 +14,14 @@ function Human(name,age){
     }
 }
 
-const worker = new Human(`Petr`,43)
+const worker = new human(`Petr`,43)
+const user = new human(`Igor`,24)
 
 worker.printInfo()
+user.printInfo()
+
+let num = 1.34513
+console.log(num.toFixed(0)) 
+// 0 digits after . => 1.34513 => 1
+
+console.log(math.Max)
