@@ -33,3 +33,9 @@ console.log(Math.max(...arr))
 let h = `Hello World!`
 
 console.log(h.indexOf(`ll`,2))
+
+let arrStr = [`b`, `f`, `a`]
+
+arrStr = arrStr.sort()
+
+console.log(arrStr)
