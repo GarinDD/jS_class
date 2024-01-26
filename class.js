@@ -28,3 +28,8 @@ let arr = [5,6,7,10,3]
 
 
 console.log(Math.max(...arr))
+
+
+let h = `Hello World!`
+
+console.log(h.indexOf(`ll`,2))
