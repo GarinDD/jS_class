@@ -24,4 +24,7 @@ let num = 1.34513
 console.log(num.toFixed(0)) 
 // 0 digits after . => 1.34513 => 1
 
-console.log(math.Max)
+let arr = [5,6,7,10,3]
+
+
+console.log(Math.max(...arr))
